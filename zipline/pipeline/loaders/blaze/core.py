@@ -553,7 +553,7 @@ def _ensure_timestamp_field(dataset_expr, deltas, checkpoints):
 )
 def from_blaze(expr,
                apply_deltas_adjustments,
-               deltas=None,
+               deltas='auto',
                checkpoints='auto',
                loader=None,
                resources=None,
